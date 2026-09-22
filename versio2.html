@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Javascript - Kaverilista</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="main-header">
         <nav>
             <a href="versio1.html">Versio 1</a>
             <a href="versio2.html">Versio 2</a>
@@ -15,22 +15,32 @@
         <h1 id="main-header-title">Kaverilista versio 2</h1>
         <hr>
     </header>
-    
+
+
+
+
+
     <div class="container">
         <div id="main">
-            <p>Ohjelma kysyy kymmenen nimeä ja tulostaa ne listaan.</p>
 
-            <button id=nappi onclick="kysyNimi()">
-                Aloita
-            </button>
             <form>
-            <ol class="item-list">
-                
-            </ol>
+                <p>syötä nimi:</p>
+                <input id="tekstikentta"type="text">
+                <input type="submit" id="lisaa-kaveri" value="Lisää kaveri">
+                <input type="submit" id="poista-kaveri" value="Poista kaveri">
+                <input type="submit" id="jarjesta-kaverit" value="Järjestä kaverit">
             </form>
+            <ol class="item-list">
 
+            </ol>
         </div>
     </div>
+
+
+
+
+
+
 
     <script src="script.js"></script>
 </body>
