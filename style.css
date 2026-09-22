@@ -1,7 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oi&family=Outfit:wght@100..900&family=Rubik+Spray+Paint&display=swap');
+
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: italic;
-    background-image: linear-gradient(to right, black, rgb(61, 56, 56));
+    background-image: linear-gradient(to right, black, #363946, #696773, #819595, #B1B6A6);
     color:white;
     font-weight: bold;
     text-decoration: none;
@@ -11,4 +14,76 @@ body {
 
 header a{
     color:white;
+}
+
+nav {
+    color:white;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 30px;
+    transition: 0.5s;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4em; 
+}
+
+
+nav a{
+    color:white;
+    background-color: transparent;
+    border-style: ridge;
+    border-radius: 25px;
+    margin-left: 20px;
+    padding: 15px;
+    transition: 0.5s;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: grab;
+}
+
+form input {
+    color:white;
+    background-color: transparent;
+    border-style: ridge;
+    border-radius: 25px;
+    margin-left: 20px;
+    padding: 15px;
+    transition: 0.5s;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4em;
+}
+form input:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: grab;
+}
+
+form ol {
+    margin-left: 50px;
+    padding: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color:white;
+}
+
+button {
+    color:white;
+    background-color: transparent;
+    border-style: ridge;
+    border-radius: 25px;
+    margin-left: 20px;
+    padding: 15px;
+    transition: 0.5s;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4em;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: grab;
 }
