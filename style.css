@@ -4,4 +4,11 @@ body {
     background-image: linear-gradient(to right, black, rgb(61, 56, 56));
     color:white;
     font-weight: bold;
+    text-decoration: none;
+    
+}
+
+
+header a{
+    color:white;
 }

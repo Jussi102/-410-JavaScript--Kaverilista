@@ -50,6 +50,27 @@ function jarjesta_nimi(event) {
 
 }
 
+
+function kysyNimi() {
+
+    while (kaverit.length < 10) {
+        let nimi = prompt("Anna kaverin nimi:");
+
+        if (nimi != "") {
+            kaverit.push(nimi);
+        }
+    }
+
+    for (let i = 0; i < kaverit.length; i++) {
+        document.querySelector(".item-list").innerHTML +=
+            "<li>" + kaverit[i] + "</li>";
+    }
+}
+
+
+
+
 document.querySelector("#lisaa-kaveri").addEventListener("click", lisaa_nimi);
 document.querySelector("#poista-kaveri").addEventListener("click", poista_nimi);
 document.querySelector("#jarjesta-kaverit").addEventListener("click", jarjesta_nimi);
+document.querySelector("#aloita").addEventListener("click", kysyNimi);
